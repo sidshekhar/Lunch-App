@@ -1,0 +1,28 @@
+#logo h2{
+padding-left:450px;
+font-family: 'Lobster', cursive;
+margin-bottom: 5px;
+}
+
+small #price {
+	color: red;
+}
+
+.venueName{
+    margin-top:6px;
+}
+.venueIcon{
+    margin-left:-7px;
+}
+
+.photoCaption{
+    margin-bottom:15px;
+}
+
+.pagination a {
+ cursor: pointer;
+}
+.seperator{
+    margin:3px 0 6px 0;
+}
+
