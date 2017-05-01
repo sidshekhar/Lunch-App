@@ -19,7 +19,8 @@
         <div class="well well-sm" data-ng-show="totalRecordsCount == 0" class="ng-hide">
             <h4>Searching...</h4>
         </div>
-        <toaster-container toaster-options="{'time-out': 1700}"></toaster-container>
+
+        <toaster-container toaster-options="{'time-out': 2000}"></toaster-container>
         <div data-ng-show="totalRecordsCount > 0">
             <ul class="list-group" data-ng-repeat="item in filteredPlaces">
                 <li class="list-group-item">
@@ -42,8 +43,8 @@
                             <span class="badge">{{item.venue.rating | number:1}}</span>
                         </div>
                         <div class="col-xs-6 col-md-8">
-                            <p class="text-warning"><small> <a href="http://maps.google.com/?q={{item.venue.location.address}}" target="_blank">{{(item.venue.location.address != null) && item.venue.location.address}}</a></small>
-                            <small class="text-primary"> - {{ priceHandler(item.venue.price) }}</small></p>
+                            <p class="text-warning"><small> <a href="http://maps.google.com/?q={{item.venue.location.address}}" target="_blank">{{(item.venue.location.address != null) && item.venue.location.address}}</a> </small>
+                            <small class="text-primary"><strong> - {{ priceHandler(item.venue.price) }}</strong></small> </p>
                             <p>"{{item.tips[0].text}}"</p>
                         </div>
                         <div class="col-xs-4 col-md-3">
