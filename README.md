@@ -2,9 +2,9 @@
 > Fun single page web app created to find places to grab lunch nearby.Uses the FourSquare API to receive and filter nearby restaurant data. Have a look here - https://sidshekhar.github.io/Lunch-App/#/explore 
 
 
-![Screenshot 1](/Images/Screen Shot 2017-05-02 at 12.07.23 AM.png? raw=true)
+![Screenshot 1](/Images/main-page.png? raw=true)
 
-## Installation
+## Introduction
 
 OS X & Linux:
 
