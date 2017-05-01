@@ -1,8 +1,21 @@
-#logo h2{
-padding-left:450px;
-font-family: 'Lobster', cursive;
-margin-bottom: 5px;
+
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+
 }
+.navbar-brand {
+	float:none;
+	text-transform: none;
+}
+
+.nav.navbar.navbar-default{
+	font-family: 'Lobster', cursive;
+}
+
+
 
 small #price {
 	color: red;
@@ -25,4 +38,3 @@ small #price {
 .seperator{
     margin:3px 0 6px 0;
 }
-
