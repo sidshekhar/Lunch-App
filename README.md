@@ -7,9 +7,9 @@
 <br>
 
 ## External Libraries Used
-AngularJS 1.4.9 - https://angularjs.org/ 
-Angular JS-Toaster - https://github.com/jirikavi/AngularJS-Toaster
-angular-loading-bar - https://github.com/chieffancypants/angular-loading-bar
+* AngularJS 1.4.9 - https://angularjs.org/ 
+* Angular JS-Toaster - https://github.com/jirikavi/AngularJS-Toaster
+* angular-loading-bar - https://github.com/chieffancypants/angular-loading-bar
 
 
 ## Usage
@@ -18,6 +18,10 @@ The purpose of this app was to solve a long-standing debate at my workplace abou
 <img src="Images/photos.png" alt="photos screenshot">
 <em>User photos of a restaurant</em>
 <br>
+
+
+## Inspiration
+The inspiration for using Angular JS and the FourSquare API together comes from <a href="https://github.com/tjoudeh">Taiseer Joudeh</a> who had a tutorial for building Single Page Apps using AngularJS at https://github.com/tjoudeh/FoursquareAngularJS
 
 ## Contributing
 
