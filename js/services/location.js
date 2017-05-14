@@ -2,14 +2,20 @@ app.factory('myCoordinates', ['$q', function myCoordinates($q) {
 
 	var deferred = $q.defer();
 
-	function getCoordinates(){
+	// Check your browser support HTML5 Geolocation API
+	if (window.navigator && window.navigator.geolocation) {
+		window.navigator.geolocation.getCurrentPosition(getCoordinates);
+	} else {
+		deferred.reject({msg: "Browser does not supports HTML5 geolocation"});
+	}
+
+	function getCoordinates(coordinates){
 		var myCoordinates = {};
-		myCoordinates.lat = 51.5074;  //London Latitude	
-		myCoordinates.lng = -0.118092	;   //London Longitude
+		myCoordinates.lat = coordinates.coords.latitude;
+		myCoordinates.lng = coordinates.coords.longitude;
 		deferred.resolve(myCoordinates);
 	}
 
 	return deferred.promise;
-	
-	getCoordinates()
+
 }])
