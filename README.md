@@ -1,5 +1,5 @@
 # Lunch-App
-> Fun single page web app created to find places to grab lunch nearby. Uses the <a href="https://developer.foursquare.com/docs/">FourSquare API</a> and <a href="https://www.w3schools.com/html/html5_geolocation.asp">HTML5 geolocation</a> to display interesting nearby restaurant to explore. Have a look at the functioning app here - https://sidshekhar.github.io/Lunch-App/
+> Fun single page web app created to find places to grab lunch nearby. Uses the <a href="https://developer.foursquare.com/docs/">FourSquare API</a> and <a href="https://www.w3schools.com/html/html5_geolocation.asp">HTML5 geolocation</a> to display interesting nearby restaurant to explore.
 <br>
 
 <img src="Images/main-page.png" alt="site screenshot">
