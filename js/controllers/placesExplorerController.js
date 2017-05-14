@@ -1,4 +1,4 @@
-app.controller('placesExplorerController', function ($scope, placesExplorerService, $filter, myCoordinates, placesPhotosService, $uibModal) {
+app.controller('placesExplorerController', function ($scope, $location, placesExplorerService, $filter, myCoordinates, placesPhotosService, $uibModal) {
   
 	
 	var forceSSL = function () {
