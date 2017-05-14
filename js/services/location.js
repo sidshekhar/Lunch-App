@@ -2,17 +2,10 @@ app.factory('myCoordinates', ['$q', function myCoordinates($q) {
 
 	var deferred = $q.defer();
 
-	// Check your browser support HTML5 Geolocation API
-	if (window.navigator && window.navigator.geolocation) {
-		window.navigator.geolocation.getCurrentPosition(getCoordinates);
-	} else {
-		deferred.reject({msg: "Browser does not supports HTML5 geolocation"});
-	}
-
 	function getCoordinates(coordinates){
 		var myCoordinates = {};
-		myCoordinates.lat = coordinates.coords.latitude;
-		myCoordinates.lng = coordinates.coords.longitude;
+		myCoordinates.lat = 51.5074;  //London Latitude	
+		myCoordinates.lng = 0.1278;   //London Longitude
 		deferred.resolve(myCoordinates);
 	}
 
