@@ -1,7 +1,12 @@
 app.controller('placesExplorerController', function ($scope, placesExplorerService, $filter, myCoordinates, placesPhotosService, $uibModal) {
   
 	
-
+	var forceSSL = function () {
+	    if ($location.protocol() !== 'https') {
+		$window.location.href = $location.absUrl().replace('http', 'https');
+    		}	
+	};
+	forceSSL();
 	
 	$scope.exploreNearby = "";
     $scope.exploreQuery = "";
